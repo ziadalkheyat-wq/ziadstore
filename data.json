@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "id": "e91c64d0-aba0-42f1-b6c1-e136d5f64850",
+      "name": "Laptop Test",
+      "phone": "0997654321",
+      "passwordHash": "775839aa88c4d333d5b940f94c7d0895:4ed6f230e40328bff743b2bf3ab34ff4d5a24a60ebd98b4df493ab03d5e4a000474871a5cf5a0d2fac98ba67771755ef7ce6b559a886887f4abc53635ac47e87",
+      "balance": 0,
+      "createdAt": "2026-09-11T21:57:13.875Z"
+    },
+    {
+      "id": "d2d8f950-a419-4075-b743-a3722074a7c3",
+      "name": "ziad alkhdeyat",
+      "phone": "0997613767",
+      "passwordHash": "8c2855e10da07ad408b78287ea93ab4e:3026907b64f23a3af66644c21f93105d378e0bce09adf242703db6bbd808535bb9446cc2f9c7fe1a5fa07b1f3fac3e31512d23c0e56c1fda168e9698e0b8af6e",
+      "balance": 0,
+      "createdAt": "2026-09-11T22:02:00.326Z"
+    },
+    {
+      "id": "a0a6e36f-b7e5-4f5c-8e5e-45130b4ef575",
+      "name": "zz",
+      "phone": "0983032131",
+      "passwordHash": "8ea0cdc708fb2aed1f8580ad9c1f6f76:576ae002b8a47e7cdda93cf5015d1737c397b150cf42f571b91e70857bc9361be98e53ed616a18695b682eb47f31ef3cccac8a8287a17d75a30d90df0e2525eb",
+      "balance": 0,
+      "createdAt": "2026-09-12T00:44:36.966Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "d5af0b82-19a1-45e6-9cac-e9fb744cdad0",
+      "userId": "d2d8f950-a419-4075-b743-a3722074a7c3",
+      "type": "topup",
+      "amount": 1000,
+      "method": "شام كاش",
+      "description": "طلب شحن رصيد بدون رقم عملية، بانتظار التحقق",
+      "status": "pending",
+      "createdAt": "2026-09-11T22:02:30.870Z"
+    },
+    {
+      "id": "3a1bdada-aceb-4801-bfc7-57690705a4a6",
+      "userId": "d2d8f950-a419-4075-b743-a3722074a7c3",
+      "type": "topup",
+      "amount": 1000,
+      "method": "شام كاش",
+      "description": "طلب شحن رصيد بدون رقم عملية، بانتظار التحقق",
+      "status": "pending",
+      "createdAt": "2026-09-11T22:02:23.397Z"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ziad-store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ZIAD.STORE API SYRIA integration",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
